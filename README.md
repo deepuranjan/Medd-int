@@ -1,4 +1,4 @@
-##1. Question
+## 1. Question
 ```
 Implement a group_by_owners function that:
   - Accepts a dictionary containing the file owner name for each file name.
@@ -6,30 +6,30 @@ Implement a group_by_owners function that:
 
 For example, for dictionary {'Input.txt': 'Randy', 'Code.py': 'Stan', 'Output.txt': 'Randy'} the group_by_owners function should return {'Randy': ['Input.txt', 'Output.txt'], 'Stan': ['Code.py']}.
 ```
-###Answer:
+### Answer:
 ```Script Name: file_Owner.py```
-###Output:
+### Output:
 ![Run output](images/FileOwner.png)
 
-##2. Question
+## 2. Question
 ```
 Write a function that checks if a given word is a palindrome. Character case should be ignored.
 ```
-###Answer
+### Answer
 ```Script Name: check_palindrome.py```
-###Output
+### Output
 ![Run output](images/Palli.png)
 
-##3. Question
+## 3. Question
 ```
 Write a function to parse a log file & extract details of Errors & Warnings recorded into a separate file.
 ```
-###Answer
+### Answer
 ```Script Name: extract_log.py```
-###Output
+### Output
 ![Run output](images/LogExtract.png)
 
-##4. Question
+## 4. Question
 ```
 Write a function that provides a change directory (cd) function for an abstract file system.
 
@@ -50,7 +50,7 @@ Output:
 Should display '/a/b/c/x'.
 ```
 ### Answer
-```buildoutcfg
+```
 Script Name: change_directory.py
 ```
 ### Output
@@ -65,7 +65,7 @@ The single the record shall contain the following information:
 The application should have the ability to INSERT, DELETE, UPDATE & SEARCH records.
 Please Note: this application should not use any DATABASE.
 ```
-###Answer
+### Answer
 ```
 Directory Name: webapp
 Please follow instructions in webapp/README.md
